@@ -3,7 +3,7 @@
 ; https://stackoverflow.com/questions/25289056/how-to-set-a-global-environment-variable-from-inno-setup-installer/30310653
 
 #define MyAppName "Apache Maven"
-#define MyAppVersion "3.8.1"
+#define MyAppVersion "3.8.4"
 #define MyAppPublisher "Personal Soft Informática"
 #define MyAppURL "http://www.personalsoft.com.br"
 
@@ -30,7 +30,7 @@ VersionInfoVersion={#MyAppVersion}
 PrivilegesRequired=lowest
 
 [Files]
-Source: "apache-maven-3.8.1\*"; DestDir: "{app}"; Flags: onlyifdoesntexist recursesubdirs
+Source: "apache-maven-3.8.4\*"; DestDir: "{app}"; Flags: onlyifdoesntexist recursesubdirs
 
 [Code]
 //const RootKey = HKEY_LOCAL_MACHINE;
